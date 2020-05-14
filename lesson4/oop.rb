@@ -46,6 +46,6 @@ class CoolCar
     puts "Двигатель а/м с г.н. #{@reg_number} выключен"
   end
 end
-# cars = CoolCar.make_cars(3)
-# puts cars.class
+cars = CoolCar.make_cars(3)
+puts cars.to_s
 
